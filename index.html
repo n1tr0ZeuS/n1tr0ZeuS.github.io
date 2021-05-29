@@ -1,219 +1,699 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 
 <head>
-  
-  <title>Главная страница</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="assets/favicon.ico" type="image/png">
-
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600%7CMontserrat&amp;display=swap" rel="stylesheet"> 
-
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Главная страница</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body>
 
-  <div class="site-wrap">
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-center">
+							<li class="nav-item active"><a class="nav-link" href="index.html">Главная</a></li>
+							<li class="nav-item"><a class="nav-link" href="about-us.html">Обо мне</a></li>
+							<li class="nav-item"><a class="nav-link" href="gallery.html">Галерея</a>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Блог</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="price.html">Python</a>
+									<li class="nav-item"><a class="nav-link" href="games.html">HTML</a>
+									<li class="nav-item"><a class="nav-link" href="elements.html">JavaScript</a>
+									<li class="nav-item"><a class="nav-link" href="elements.html">CSS</a>
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="nav-item"><a href="#" class="primary_btn">Discord</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="home_left_img">
+							<img class="img-fluid" src="img/banner/home-left.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="banner_content">
+							<h2>
+								Этот сайт создан <br>
+								N1tr0.ZeuS <br>
+							</h2>
+							<p>
+								Сайт создан N1tr0.ZeuS. Это заняло не так уж много времени. На данной странице Вы узнаете много интересного о её создателе. 
+								Так же, не исключено, что Вы найдете что-то новое для себя и станете лучше.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about_us_area section_gap_top">
+		<div class="container">
+			<div class="row about_content align-items-center">
+				<div class="col-lg-6">
+					<div class="section_content">
+						<h6>Обо мне</h6>
+						<h1>Я уже давно создаю сайты <br>Около 3 лет</h1>
+						<p>Если Вам требуется помощь по созданию и верстке сайтов, то пишите мне в Discord канал, я регулярно его смотрю и буду, по возможности, отвечать Вам и помогать. 
+							Если Вам интересно, то Вы можете скачать код...</p>
+						<a class="primary_btn" href="#">Читать дальше</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="about_us_image_box justify-content-center">
+						<img class="img-fluid w-100" src="img/about_img.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="upcoming_games_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h2>Статьи о программировании</h2>
+						<h1>Статьи о программировании</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="new_games_item">
+						<img src="img/py.png" alt="">
+						<div class="upcoming_title">
+							<h3><a href="games.html">Python</a></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="new_games_item">
+						<img src="img/html.png" alt="">
+						<div class="upcoming_title">
+							<h3><a href="games.html">HTML</a></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="new_games_item">
+						<img src="img/js.png" alt="">
+						<div class="upcoming_title">
+							<h3><a href="games.html">JavaScript</a></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="new_games_item">
+						<img src="img/css.png" alt="">
+						<div class="upcoming_title">
+							<h3><a href="games.html">CSS</a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recent_update_area section_gap">
+		<div class="container">
+			<div class="recent_update_inner">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+							Кто я вообще?
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+						 aria-selected="false">
+							Как я это делаю?
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+						 aria-selected="false">
+							Об отдыхе
+						</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent role="tabpanel" aria-labelledby="contact-tab"">
+					<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<div class="row recent_update_text">
+							<div class="col-lg-6">
+								<div class="chart_img">
+									<img class="img-fluid" src="img/jun.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="section_content">
+									<h6>Обо мне</h6>
+									<h1>Меня зовут Марат <br>Мне 14 лет</h1>
+									<p>Учусь я в 9 классе. Я начал создавать простейшие сайты в 11-12 лет. Они были с простым CSS и кое-каким контентом. Я читал книги на эту тему, смотрел обучающие видеоролики, 
+										пытался саморазвиваться.
+									</p>
+									<a class="primary_btn" href="#">Читать дальше</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						<div class="row recent_update_text">
+							<div class="col-lg-6">
+								<div class="chart_img">
+									<img class="img-fluid" src="img/prog.jpg" alt="">
+									<img class="img-fluid" src="img/prog2.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="section_content">
+									<h6>Я начал с малого</h6>
+									<h1>Что бы добиться успеха <br>Нужно начинать с малого.</h1>
+									<p>Нельзя сразу взять, и сверстаьт красиый сайт с крутым CSS. Нужно много читать, практиковаться, спрашивать у знающих. И это не только в программировании. 
+										Благодаря этому Вы достигнете успеха. Главное - не засиживаться на одном, отдыхать, развиваться дальше.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="profile-tab">
+						<div class="row recent_update_text">
+							<div class="col-lg-6">
+								<div class="chart_img">
+									<img class="img-fluid" src="img/holi.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="section_content">
+									<h6>Это очнеь важная</h6>
+									<h1>Часть любого дела <br>Если не отдыхать, а только работать </h1>
+									<p>И работать, то это надоест и больше не захочется этим заниматься. Важно, чтобы Ваша деятельность была интересна в первую очередь Вам самим. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+						<div class="row recent_update_text">
+							<div class="col-lg-6">
+								<div class="chart_img">
+									<img class="img-fluid" src="img/jun.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="section_content">
+									<h6>Обо мне</h6>
+									<h1>Меня зовут Марат <br>Мне 14 лет</h1>
+									<p>Учусь я в 9 классе. Я начал создавать простейшие сайты в 11-12 лет. Они были с простым CSS и кое-каким контентом. Я читал книги на эту тему, смотрел обучающие видеоролики, 
+										пытался саморазвиваться.
+									</p>
+									<a class="primary_btn" href="#">Читать дальше</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="gallery_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h2>Галерея</h2>
+						<h1>Галерея</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="single-gallery">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="img/1.jpg" alt="">
+								<div class="content">
+									<a class="pop-up-image" href="img/1.jpg">
+										<i class="lnr lnr-eye"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="single-gallery">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="img/2.jpg" alt="">
+								<div class="content">
+									<a class="pop-up-image" href="img/2.jpg">
+										<i class="lnr lnr-eye"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="single-gallery">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="img/3.jpg" alt="">
+								<div class="content">
+									<a class="pop-up-image" href="img/3.jpg">
+										<i class="lnr lnr-eye"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="single-gallery">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="img/4.jpg" alt="">
+								<div class="content">
+									<a class="pop-up-image" href="img/4.jpg">
+										<i class="lnr lnr-eye"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="single-gallery">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="img/5.jpg" alt="">
+								<div class="content">
+									<a class="pop-up-image" href="img/5.jpg">
+										<i class="lnr lnr-eye"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="single-gallery">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="img/6.jpg" alt="">
+								<div class="content">
+									<a class="pop-up-image" href="img/6.jpg">
+										<i class="lnr lnr-eye"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 hidden-md hidden-sm">
+					<div class="single-gallery">
+						<div class="overlay"></div>
+						<img class="img-fluid w-100" src="img/8.jpg" alt="">
+						<div class="content">
+							<a class="pop-up-image" href="img/8.jpg">
+								<i class="lnr lnr-eye"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="col-lg-12">
+		<div class="main_title">
+			<h2>Как провожу свободное время</h2>
+			<h1>Как провожу свободное время</h1>
+		</div>
+	</div>
+	<section class="testimonials_area section_gap">
+		<div class="container">
+			<div class="testi_slider owl-carousel">
+				<div class="testi_item">
+					<img src="img/pc.png" alt="">
+					<h4>Компютерные игры</h4>
+					<ul class="list">
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+					</ul>
+					<div class="wow fadeIn" data-wow-duration="5s">
+						<p>
+							Это весело! Скорее всего это - единственная причина по которой в них играет большинство людей. Главное, чтобы это не перешло в зависимость. <br> 
+						</p>
+					</div>
+				</div>
+				<div class="testi_item">
+					<img src="img/friends.png" alt="">
+					<h4>Провожу время с родственниками и друзьями.</h4>
+					<ul class="list">
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+					</ul>
+					<div class="wow fadeIn" data-wow-duration="5s">
+						<p>
+							Даже если Ваша деятельность требует много времени, нельзя забывать о своих близких. С ними всегда можно хорошо провести время. <br>
+						</p>
+					</div>
+				</div>
+				<div class="testi_item">
+					<img src="img/park.png" alt="">
+					<h4>Гуляю</h4>
+					<ul class="list">
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+					</ul>
+					<div class="wow fadeIn" data-wow-duration="5s">
+						<p>
+							Если Вы устали от всей этой "суеты", то почему бы не прогуляться по парку вашего города под любимую музыку? Дышать свежим воздухом полезно, тем более таким образом Ваш оргагизм отдыхает. 
+							Лично мне во время гуляния иногда приходят в голову умные мысли и идеи.<br>
+						</p>
+					</div>
+				</div>
+				<div class="testi_item">
+					<img src="img/sport.png" alt="">
+					<h4>Занимаюсь спортом</h4>
+					<ul class="list">
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+						<li><a href="#"><i class="fa fa-star"></i></a></li>
+					</ul>
+					<div class="wow fadeIn" data-wow-duration="5s">
+						<p>
+							Моя сфера деятельности делала бы из меня толстого прыщявого ботана, если бы не спорт. Это очень полезно для организма. Так же, как и во время гуляния, умные мысли будут Вас посещать.<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!---
+	<section class="pricing_area section_gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h2>Pricing Plans</h2>
+						<h1>Pricing Plans</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="pricing_item">
+						<h3 class="p_title">Silver Package</h3>
+						<h1 class="p_price">$69.00</h1>
+						<div class="p_list">
+							<ul>
+								<li>Basic hair Cut</li>
+								<li>Basic hair Cut</li>
+								<li>Basic hair Cut</li>
+							</ul>
+						</div>
+						<div class="p_btn">
+							<a class="gradient_btn" href="#"><span>Order Now</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="pricing_item active">
+						<h3 class="p_title">Golden Package</h3>
+						<h1 class="p_price">$69.00</h1>
+						<div class="p_list">
+							<ul>
+								<li>Basic hair Cut</li>
+								<li>Basic hair Cut</li>
+								<li>Basic hair Cut</li>
+							</ul>
+						</div>
+						<div class="p_btn">
+							<a class="gradient_btn" href="#"><span>Order Now</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 hidden-md">
+					<div class="pricing_item">
+						<h3 class="p_title">Platinum Package</h3>
+						<h1 class="p_price">$69.00</h1>
+						<div class="p_list">
+							<ul>
+								<li>Basic hair Cut</li>
+								<li>Basic hair Cut</li>
+								<li>Basic hair Cut</li>
+							</ul>
+						</div>
+						<div class="p_btn">
+							<a class="gradient_btn" href="#"><span>Order Now</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="frequently_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h2>Frequently Asked Questions</h2>
+						<h1>Frequently Asked Questions</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row frequent_inner">
+				<div class="col-lg-5 col-md-5">
+					<div class="frequent_item">
+						<h3>We Believe that Interior beauty Lasts Long</h3>
+						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+							especially in the workplace. That’s why it’s crucial that as women.</p>
+					</div>
+				</div>
+				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
+					<div class="frequent_item">
+						<h3>We Believe that Interior beauty Lasts Long</h3>
+						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+							especially in the workplace. That’s why it’s crucial that as women.</p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5">
+					<div class="frequent_item">
+						<h3>We Believe that Interior beauty Lasts Long</h3>
+						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+							especially in the workplace. That’s why it’s crucial that as women.</p>
+					</div>
+				</div>
+				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
+					<div class="frequent_item">
+						<h3>We Believe that Interior beauty Lasts Long</h3>
+						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+							especially in the workplace. That’s why it’s crucial that as women.</p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5">
+					<div class="frequent_item last-child">
+						<h3>We Believe that Interior beauty Lasts Long</h3>
+						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+							especially in the workplace. That’s why it’s crucial that as women.</p>
+					</div>
+				</div>
+				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
+					<div class="frequent_item last-child">
+						<h3>We Believe that Interior beauty Lasts Long</h3>
+						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+							especially in the workplace. That’s why it’s crucial that as women.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-
-    
-    <div class="header-top">
-      <div class="container">
-        <div class="d-flex">
-          <div class="p-2 flex-grow-1">
-            <a href="index.html" class="site-logo mx-auto d-block">
-              <img src="assets/logo.png" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="p-2 align-self-center d-md-none">
-            <a href="#" class="ml-auto d-block site-menu-toggle js-menu-toggle text-black">
-              <span class="icon-menu h1"></span>
-            </a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-md-block" role="banner">
-
-        <div class="container">
-          <div class="d-flex align-items-center">
-            <div class="mx-auto">
-              <nav class="site-navigation position-relative text-left">
-                <ul class="site-menu main-menu js-clone-nav mx-auto d-none pl-0 d-md-block border-none">
-                  <li class="active"><a href="index.html" class="nav-link text-left">Главная</a></li>
-                  <li><a href="#products" class="nav-link text-left">Обо мне</a></li>
-                  <li><a href="#feedback" class="nav-link text-left">Более подробная информация</a></li>
-                  <li><a href="#footer" class="nav-link text-left">Цитаты</a></li>
-                </ul>                                                                                                                                                                                                                                                                                         
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="owl-carousel hero-slide owl-style">
-      <div class="intro-section container" style="background-image: url('assets/hero_1.jpg');">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-            <span class="sub-title"><h1 style="font-size: 1.5rem;">Добро пожаловать</h1></span>
-            <h1>На сайт N1tr0.ZeuS`a</h1>
-          </div>
-        </div>
-      </div>
-
-      <div class="intro-section container" style="background-image: url('assets/hero_2.jpg');">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-            <span class="sub-title"><h1 style="font-size: 1.5rem;">Создано для учебных целей</h1></span>
-            <h1>Take IT Easy</h1>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    
-    
-    <div><a id="products"></a></div>
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 section-title text-center mb-5">
-            <h3 class="d-block">Обо мне</h3>
-            <p>
-              Меня зовут Марат, мне 14 лет, учусь в 8 классе. Изучил несолько языков программирования: Python, HTML, CSS, JavaScript. Так же немного разбираюсь в командной строке Linux. 
-              Умею верстать сайты, создавать их и хорошо редактировать шаблоны.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="hero-2" style="background-image: url('assets/hero_2.jpg');">
-    <div><a id="feedback"></a></div>
-     <div class="container">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-            <h2 style="font-size: 3rem;">Это - Эльбрус</h2>
-            <h2 style="font-size: 1.5rem;">Прекрасный и завораживающий вид!</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 section-title text-center mb-5">
-            <h3 class="d-block">Что я вообще могу?</h3>
-            <p>
-              Если говорить подробнее, то вот перечень моих возможностей, если так можно выразиться:</br>
-              • Python: Прочитал много книг, могу написать небольшой платформер, текстовые игры и т.д. 
-              Хорошо знаком с циклами, условиями (if, else, elif), классами, функциями, импортированием библиотек, списками, пременными, словарями, кортежами. </br>
-              Знаю про операторы чисел (деление, умножение и т.д.), "черепашьей" графике. </br>
-              Конкретный пример моего проекта - Прыг-скок. В этой игре имеется платформа, которой нужно управлять с помощью стрелочек. Есть мяч, который не должен коснуться "пола". </br>
-              Так же текстовая игра "приведения". Нарисованно 3 двери. Цель - не попасть в дверь с приведениями(дверь с призраком выбирается случайно). 
-              Так же есть много аналогичных игр на этом языке.</br>
-            </br>
-              • HTML, CSS, JavaScript: Заверстал уже не один сайт, читал как книги, так и в интернете об этих языках. Хорошо знаю HTML u JavaScript, а вот CSS только самые основы. 
-              Могу прирепить катинки, аудиофайлы, гипперссылки, кнопки к сайту. Могу поставить пароль для посещения страницы, но его можно будет увидеть, посмотрев в исходный код. 
-              Сделал 2 сайта с нуля (включая этот), и 2 заверстал (последний на этапе завершения). Если у Вас есть желание ознакомиться с кодом данного сайта, <a href = "https://github.com/n1tr0ZeuS/n1tr0ZeuS.github.io">нажимай сюда</a></br>.
-            </br>
-              • Командная строка Linux: Запуск команд, поиск справки о них.
-              Основы навигации: cd, ls, pwd, which.
-              Переменные окружения: env, export, $.
-              Текстовый редактор nano и базовые команды vim.
-              Права доступа в Linux: ls -l, chmod.
-              Потоки и перенаправления: |, >>, >.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="owl-carousel owl-slide-3 owl-slide">
-        
-          <blockquote class="testimony">
-            <img src="assets/brain.jpg" alt="Фото">
-            <p>&ldquo;Отладка кода вдвое сложнее, чем его написание. Так что если вы пишете код настолько умно, насколько можете, то вы по определению недостаточно сообразительны, чтобы его отлаживать..&rdquo;</p>
-            <p class="small text-primary">&mdash; Brian W. Kernighan</p>
-          </blockquote>
-          <blockquote class="testimony">
-            <img src="assets/yoggi.jpg" alt="Фото">
-            <p>&ldquo;В теории, теория и практика неразделимы. На практике это не так.&rdquo;</p>
-            <p class="small text-primary">&mdash; Yoggi Berra</p>
-          </blockquote>
-          <blockquote class="testimony">
-            <img src="assets/Christopher Thompson.jpg" alt="Фото">
-            <p>&ldquo;Иногда лучше остаться спать дома в понедельник, чем провести всю неделю в отладке написанного в понедельник кода.&rdquo;</p>
-            <p class="small text-primary">&mdash; Christopher Thompson</p>
-          </blockquote>
-       
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div><a id="footer"></a></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <div class="social-icons">
-              <a href="https://vk.com/fnfun"><span class="icon-vk"></span></a>
-              <a href="https://github.com/n1tr0ZeuS"><span class="icon-github"></span></a>
-              <a href="https://www.youtube.com/channel/UC_hWRSCdZsDtulDqTCyhXzw"><span class="icon-youtube-play"></span></a>
-              <a href="https://www.instagram.com/"><span class="icon-instagram"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="copyright">
-                <p>
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены | Сайт создан <i class="icon-heart text-danger" aria-hidden="true"></i> by 
-                    <a href="https://github.com/n1tr0ZeuS" target="_blank" >N1tr0.ZeuS</a>
-                    </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-  </div>
-  <!-- .site-wrap -->
-
-
-  <!-- loader -->
-  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
-  <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#ff5e15"/></svg></div>
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/main.js"></script>
-
+	<section class="blog_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h2>Latest Blog Posts</h2>
+						<h1>Latest Blog Posts</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="blog_items">
+						<div class="blog_img_box">
+							<img class="img-fluid" src="img/blog_img1.png" alt="">
+						</div>
+						<div class="blog_content">
+							<a class="title" href="blog.html">Portable Fashion for women</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							<div class="date">
+								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
+								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
+								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="blog_items">
+						<div class="blog_img_box">
+							<img class="img-fluid" src="img/blog_img2.png" alt="">
+						</div>
+						<div class="blog_content">
+							<a class="title" href="blog.html">Portable Fashion for women</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							<div class="date">
+								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
+								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
+								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 hidden-md">
+					<div class="blog_items">
+						<div class="blog_img_box">
+							<img class="img-fluid" src="img/blog_img3.png" alt="">
+						</div>
+						<div class="blog_content">
+							<a class="title" href="blog.html">Portable Fashion for women</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							<div class="date">
+								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
+								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
+								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	-->
+	<footer class="footer_area section_gap_top">
+		<div class="container">
+			<div class="row footer_inner">
+				<div class="col-lg-3 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h4>Главная</h4>
+						</div>
+						<ul>
+							<li><a href="#"></a>О нас</a></li><a href="#">
+							<li><a href="#"></a>Дисклеймер</a></li>
+							<li><a href="#"></a>Как устроен этот сайт?</a></li>
+							<li><a href="#"></a>Контакты</a></li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h4>Блог</h4>
+						</div>
+						<ul>
+							<li><a href="#"></a>Python</a></li><a href="#">
+							<li><a href="#"></a>HTML</a></li>
+							<li><a href="#"></a>JavaScript</a></li>
+							<li><a href="#"></a>CSS</a></li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h4>Более простые языки</h4>
+						</div>
+						<ul>
+							<li><a href="#"></a>Scratch</a></li><a href="#">
+							<li><a href="#"></a>Mindstorms</a></li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h4>Если интересно</h4>
+						</div>
+						<ul>
+							<li><a href="#"></a>Код данного сайта</a></li><a href="#">
+							<li><a href="#"></a>Разбор кода</a></li>
+							<li><a href="#"></a>GitHub</a></li>
+							<li><a href="#"></a>Discord</a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<div class="row single-footer-widget">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="copy_right_text">
+						<p>
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This web-site is made by N1tr0.ZeuS</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="social_widget">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-behance"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
 </body>
+
 </html>
